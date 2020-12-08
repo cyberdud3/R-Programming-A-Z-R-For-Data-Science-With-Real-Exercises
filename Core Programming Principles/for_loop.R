@@ -16,3 +16,11 @@ for (i in 5:10) {
    print("Hi Liji!")
 }
 
+############################
+#first 10 multiples of 5
+
+for (i in 1:10) {
+   print(paste(i, "x 5 =", i*5))
+}
+
+
