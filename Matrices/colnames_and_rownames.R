@@ -53,3 +53,21 @@ Alpha
 colnames(Alpha) <- c("a", "b", "c")
 Alpha
 
+Alpha[2, 2]
+Alpha["Hello", "b"]
+
+Alpha["Hello", "b"] <- 0
+Alpha
+
+
+Alpha["Hey", "c"] <- 1
+Alpha
+
+Alpha[2, 1] <- 8
+Alpha
+
+rownames(Alpha) <- NULL
+Alpha
+
+colnames(Alpha) <- NULL
+Alpha
